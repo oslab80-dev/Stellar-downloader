@@ -11,7 +11,7 @@ namespace StellarDownloader
 {
     public partial class MainWindow : Window
     {
-        private const string GITHUB_BASE_RAW_URL = "http://localhost:3001/";
+        private const string GITHUB_BASE_RAW_URL = "http://188.157.212.145:3001/";
 
         private readonly HttpClient _httpClient;
 
