@@ -13,10 +13,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Label Grid.Row="0" Content="Stellar Auto-Downloader Tool" FontSize="22" FontWeight="Bold" Foreground="#f2f3f5" Padding="0,0,0,15"/>
+        <Label Grid.Row="0" Content="Stellar Build Fixer Tool" FontSize="22" FontWeight="Bold" Foreground="#f2f3f5" Padding="0,0,0,15"/>
 
         <StackPanel Grid.Row="1" Margin="0,0,0,20">
-            <TextBlock Text="SELECT STELLAR / FORTNITE DIRECTORY:" FontSize="11" FontWeight="Bold" Foreground="#b5bac1" Margin="0,0,0,5"/>
+            <TextBlock Text="SELECT FORTNITE DIRECTORY:" FontSize="11" FontWeight="Bold" Foreground="#b5bac1" Margin="0,0,0,5"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -38,7 +38,7 @@
             <TextBox x:Name="TxtCode" Height="80" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Background="#383a40" Foreground="#23a55a" BorderBrush="#4e5058" FontFamily="Consolas" Padding="5"/>
         </StackPanel>
 
-        <Button x:Name="BtnStart" Grid.Row="3" Content="START REPAIR &amp; DOWNLOAD" Height="40" Background="#23a55a" Foreground="White" FontSize="14" FontWeight="Bold" BorderThickness="0" Click="BtnStart_Click">
+        <Button x:Name="BtnStart" Grid.Row="3" Content="START REPAIR" Height="40" Background="#23a55a" Foreground="White" FontSize="14" FontWeight="Bold" BorderThickness="0" Click="BtnStart_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="4"/>
